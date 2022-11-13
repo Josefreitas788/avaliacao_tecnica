@@ -13,7 +13,7 @@ class Robo {
 
 
         void setPosicaoX(int x){
-            if(this-> posicaoX < this->xTamAmbiente){
+            if(this-> posicaoX < this->xTamAmbiente && (this->posicaoX + x) >= 0){
                 this-> posicaoX += x;
             }
         }
@@ -23,7 +23,7 @@ class Robo {
         }
 
         void setPosicaoY(int y){
-            if(this-> posicaoY < this->yTamAmbiente){
+            if(this-> posicaoY < this->yTamAmbiente && (this->posicaoY + y) >= 0){
                 this-> posicaoY += y;
             }
         }
@@ -84,6 +84,7 @@ class Robo {
             this->yTamAmbiente = yTamAmbiente;
         }
 };
+
 int main(){
     int tamx,tamy;
     string passeio;
