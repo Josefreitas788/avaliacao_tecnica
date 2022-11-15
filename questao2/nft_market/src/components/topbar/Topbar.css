@@ -1,0 +1,46 @@
+
+.Topbar{
+    justify-content: space-between;
+    display: flex;
+  
+  }
+  
+  .Logo{
+  
+    width: 213px;
+    height: 34px;
+  
+    
+    
+  }
+  
+  
+  .Button2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+  
+    width: 145px;
+    height: 52px;
+  
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
+  .Menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+  
+  
+  }
