@@ -1,6 +1,4 @@
-import React from 'react';
 import './Topbar.css';
-//import './../../App.css';
 import logo from './imagens/Logo.png'
 
 function TopBar() { 
