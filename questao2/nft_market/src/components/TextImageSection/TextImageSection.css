@@ -1,0 +1,106 @@
+.SectionMain{
+    padding-top: 4%;
+    height: 616px;
+    margin: 0% 8%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.SectionLeft{
+    width: 50%;
+}
+
+.DivText{
+    text-align: left;
+}
+.paragraph1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #7780A1;
+}
+
+.DivText h1{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.paragraph2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+}
+
+.DivButton{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+.buttonLeft{
+    width: 144px;
+    height: 52px;
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+ 
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: 0px;
+  }
+
+  .buttonRight {
+    width: 142px;
+    height: 52px;
+    background: transparent;
+    border: 2px solid  #7780A1;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+  }
+
+.SectionRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SectionRight img{
+    width: 100%;
+}

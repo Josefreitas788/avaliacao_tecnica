@@ -1,0 +1,59 @@
+.Background {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 15%;
+    max-height: 20%;
+
+
+}
+
+/* .Background {
+   position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+        margin: 0 auto;
+
+} */
+
+.little {
+    position: absolute;
+    /* width: 1509px;
+    height: 776px;
+    left: 298px;
+    top: 560px;  */
+}
+
+.blured {
+    position: absolute;
+    /* width: 1509px;
+    height: 776px;
+    left: 298px;
+    top: 560px; */
+}
+
+.gradient {
+    position: absolute;
+    /* width: 1509px;
+    height: 776px;
+    left: 298px;
+    top: 560px; */
+
+}
+
+.circles {
+
+    position: absolute;
+    /* width: 1509px;
+    height: 776px;
+    left: 298px;
+    top: 560px; */
+}

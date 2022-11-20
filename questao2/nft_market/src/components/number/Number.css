@@ -1,0 +1,47 @@
+.divider {
+    border: 1px solid #262840;
+    margin: 0 8% 6% 8%;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 8% 0% 8%;
+    flex-direction: row;
+    width: 81%;
+    height: auto;
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.number {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    margin-bottom: 20%;
+}

@@ -1,0 +1,191 @@
+.DivSlide {
+    margin-top: 50px;
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TitleSlide {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+/*   */
+
+.slick-next {
+    right: 20% !important;
+    width: 80px !important;
+    height: 80px !important;
+    background: rgba(38, 40, 64, 0.8) !important;
+    box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1) !important;
+    backdrop-filter: blur(3.5px) !important;
+    /* Note: backdrop-filter has minimal browser support */
+    font-family: 'Sora' !important;
+    border-radius: 100% !important;
+}
+
+.Slides {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.card {
+    padding: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 767px; */
+    /* max-width: 448px; */
+    max-height: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border: 1px solid #262840;
+    border-radius: 20px;
+}
+
+/* .card img {
+    object-fit: cover;
+}
+.divCapa{
+    background-color: aquamarine;
+    height: 520px;
+    width: 100%;
+    background-image: "url(" + "./imagens/Image(1).png" + ")";
+} */
+
+.imageCapa {
+    height: 520px;
+    width: 100%;
+}
+
+.DescricaoCard {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+}
+
+.num_ETH {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 97px;
+    height: 36px;
+    color: #FFFFFF;
+    background: rgba(81, 76, 255, 0.15);
+    border-radius: 4px;
+
+}
+
+.time {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    max-height: 20px;
+    margin: 0px;
+    margin-left: 12px;
+}
+
+.relogio {
+    max-height: 20px;
+}
+
+.divider {
+    border: 1px solid #262840;
+    margin: 0 8% 6% 8%;
+    margin-top: 28px;
+}
+
+.bottomCard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.textCardBottom {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: auto;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    margin: 0px;
+}
+
+.foto {
+    margin-right: -15px;
+}
+
+.like {
+    display: flex;
+    gap: 9.67px;
+}
+
+.like p {
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+}
+
+.picturesText {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomCard {
+    justify-content: space-between;
+}
+
+.heart {
+    height: 15px;
+}

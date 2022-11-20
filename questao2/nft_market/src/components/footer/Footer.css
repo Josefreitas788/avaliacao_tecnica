@@ -1,0 +1,191 @@
+.Footer{
+    height: 397px;
+    margin: 0% 8%;
+    border: 1px solid #262840;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section1{
+    width: 33.33%;
+    height: 100%;
+    border-right: 1px solid #262840;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.MenuSection1{
+    /* padding: 0px 0px 43px 43px; */
+    padding: 43px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.logo{
+    padding: 43px;
+    width: 50%;
+}
+
+.MenuSection1 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    }
+
+.section2{
+    width: 33.33%;
+    height: 100%;
+    border-right: 1px solid #262840;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.MenuSection2{
+    padding: 43px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.MenuSection2 a {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+/* .ButtonSection2{
+    margin-left: 43px;
+    width: 145px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 24px;
+    gap: 10px;
+    background: linear-gradient(104.42deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 60.23%), #2A27C9;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+} */
+.ButtonSection2{
+    margin-left: 43px;
+
+    width: 144px;
+    height: 52px;
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+ 
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: 0px;
+  }
+.IconsSection2{
+    padding: 43px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.section3{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.TextSection3{
+    padding: 43px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    text-align: left;
+}
+
+.FormSection3 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 43px;
+    padding-left: 32px;
+    padding-right: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+    border-radius: 16px;
+}
+
+.FormSection3 input{
+    border-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 16px;
+}
+
+.inputText{
+    width: 60%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    opacity: 0.5;
+}
+
+.inputSubmit{
+    width: auto;
+    background-color: transparent;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #2A27C9;
+}
