@@ -4,18 +4,21 @@
   align-items: center;
   position: relative;
   padding-top: 35px;
-  padding-left: 39px;
-  padding-right: 39px;
   margin: 0px;
+}
+.Logo{
+  padding-left: 39px;
 }
 
 .Menu {
+  width: 100%;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
   gap: 64px;
-  position: relative;
   font-family: 'Sora';
   font-style: normal;
   font-size: 16px;
@@ -30,12 +33,12 @@ a {
 }
 
 .ButtonRight {
+  padding-right: 39px;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 0px;
   gap: 16px;
 }
 
@@ -60,7 +63,6 @@ a {
 }
 
 .button2{
-  
   background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
   box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
   display: flex;

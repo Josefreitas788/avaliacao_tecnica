@@ -3,11 +3,9 @@ import Slider from "react-slick";
 import './carousel.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img from './imagens/Image.png';
 import img1 from './imagens/Image(1).png';
 import img2 from './imagens/Image(2).png';
 import img3 from './imagens/Image(3).png';
-import img4 from './imagens/Image(4).png';
 import relogio from './imagens/relogio.png';
 import foto1 from './fotos/01.png';
 import foto2 from './fotos/02.png';
@@ -19,7 +17,7 @@ import heartWithoutLike from './fotos/heartWithoutLike.png';
 export default class Carousel extends Component {
   render() {
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       swipeToSlide: true,

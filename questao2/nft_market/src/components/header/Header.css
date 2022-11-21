@@ -1,18 +1,17 @@
 .Text {
-    background-image: 
+    /* background-image:  */
     /* url('./imagensBackGround/Background.png'); */
-    url('./imagensBackGround/Circles.png'),
+
+    /* url('./imagensBackGround/Circles.png'),
     url('./imagensBackGround/Gradient_Fade.png'),
     url('./imagensBackGround/Little_Circles.png'),
-    url('./imagensBackGround/Blured_Logo.png');
+    url('./imagensBackGround/Blured_Logo.png'); */
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 15% 0% 0% 0%;
     width: 100%;
     height: auto;
-    /* height: 100%; */
-    /* position: relative; */
 }
 
 .TextCenter {
